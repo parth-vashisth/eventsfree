@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
     z-index: 5;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .z-1 {
@@ -126,9 +126,6 @@
     gap: 30px;
 }
 
-.pr-20 {
-    padding-right: 20px;
-}
 
 .justify-center {
     justify-content: center;
@@ -253,9 +250,6 @@
     max-width: 1044px;
 }
 
-.mt-50 {
-    /* margin-top: 90px; */
-}
 
 .lorem {
     font-family: "Yantramanav", sans-serif;
@@ -302,6 +296,9 @@
 
 .gap23 {
     gap: 23px;
+}
+.mt-50{
+margin-top: 30px;
 }
 
 .mt-30 {
@@ -391,7 +388,7 @@
 
 .yt-img {
     width: 100%;
-    margin-top: 120px;
+ 
 }
 
 .special {
@@ -441,11 +438,11 @@
     background-color: white;
     display: flex;
     position: relative;
-    left: 40%;
+    left: 35%;
     bottom: 40px;
     justify-content: center;
     align-items: center;
-
+transform: translateX(0%);
 }
 
 .card-head {
@@ -506,9 +503,6 @@
     margin-top: 30px;
 }
 
-.mb-75 {
-    margin-bottom: 75px;
-}
 
 .mt-75 {
     margin-top: 75px;
@@ -550,8 +544,8 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 40px;
     width: 100%;
+    padding-top: 50px;
 }
 
 .w-100 {
@@ -559,7 +553,7 @@
 }
 
 .pb-40 {
-    padding-bottom: 70px;
+    padding-bottom: 46px;
 }
 
 .sec-4-head {
