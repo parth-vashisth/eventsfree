@@ -11,38 +11,50 @@
 
 <body>
     <!-------section-1--------->
-    <section class="bg-img layer">
-        <div class="container postn-rel z-index">
-            <nav class="d-flex justify-space align-item nav-bar">
-                <div class="d-flex align-center justify-center cursor">
-                    <img src="./assets/images/earth.png" alt="logo" class="w-20">
-                    <h1 class="Events">Events<span class="Free">Free</span></h1>
-                </div>
-                <label for="nav-icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <input type="checkbox" id="nav-icon" hidden>
-                <ul class="justify-space align-center d-flex gap30 pr-20 display">
-                    <a href="" class="nav-link">
-                        <li>HOME</li>
-                    </a>
-                    <a href="" class="nav-link">
-                        <li>EVENTS</li>
-                    </a>
-                    <a href="" class="nav-link">
-                        <li>FEED</li>
-                    </a>
-                    <a href="" class="nav-link">
-                        <li>USER NAME</li>
-                    </a>
-
-
-                    <li><button class="nav-btn cursor">Log Out</button></li>
-                </ul>
-            </nav>
-            <div class="mt-50">
+    <section class="bg-img layer d-flex justify-center f-direction">
+        <div class="menu">
+            <div class="container w-100 z-10 ">
+                <nav class="d-flex justify-between align-item nav-bar">
+                    <div class="d-flex align-center justify-center cursor">
+                        <img src="./assets/images/earth.png" alt="logo" class="w-40">
+                        <h1 class="Events">Events<span class="Free">Free</span></h1>
+                    </div>
+                    <label for="nav-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <input type="checkbox" id="nav-icon" hidden>
+                    <ul class="justify-between align-center d-flex gap30 pr-20 display">
+                        <li>
+                            <a href="" class="nav-link">
+                                HOME
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="nav-link">
+                                EVENTS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="nav-link">
+                                FEED
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="nav-link">
+                                USER NAME
+                            </a>
+                        </li>
+                        <li>
+                            <button class="nav-btn cursor">Log Out</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="container postn-rel w-100 z-1 pt-105">
+            <div class="">
                 <p class="text">Sed tortor in <span class="line1"> quisque morbi</span>
                     scelerisque etiam eu.</p>
             </div>
@@ -58,7 +70,7 @@
             <div class="bluebox row justify-center cursor postn-rel">
                 <div
                     class="col-12 col-sm-6  col-md-4 col-lg-3 d-flex align-center justify-center mt-24 whiteline  mb-24">
-                    <span class="d-flex justify-center align-center pl-20 "><svg width="31" height="31"
+                    <div class="d-flex justify-center align-center pl-20 "><svg width="31" height="31"
                             viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M15.5 16.791C17.6401 16.791 19.375 15.0561 19.375 12.916C19.375 10.7759 17.6401 9.04102 15.5 9.04102C13.3599 9.04102 11.625 10.7759 11.625 12.916C11.625 15.0561 13.3599 16.791 15.5 16.791Z"
@@ -67,27 +79,27 @@
                                 d="M15.5003 2.58301C12.7598 2.58301 10.1314 3.6717 8.19356 5.60957C6.25568 7.54745 5.16699 10.1758 5.16699 12.9163C5.16699 15.3602 5.68624 16.9593 7.10449 18.7288L15.5003 28.4163L23.8962 18.7288C25.3144 16.9593 25.8337 15.3602 25.8337 12.9163C25.8337 10.1758 24.745 7.54745 22.8071 5.60957C20.8692 3.6717 18.2409 2.58301 15.5003 2.58301V2.58301Z"
                                 stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                        <div class="w-11">
+                        <div class="icon-text">
                             <p class="head">Location</p>
                             <p class="sen postn-rel">Search by city</p>
                         </div>
 
-                    </span>
+                    </div>
                 </div>
                 <div
                     class="col-12 col-sm-6  col-md-4 col-lg-3 d-flex align-center justify-center mt-24 whiteline  mb-24">
-                    <span class="d-flex justify-center align-center pl-20">
+                    <div class="d-flex justify-center align-center pl-20">
                         <img src="./assets/images/calender..png" alt="image">
-                        <div class="w-11">
+                        <div class="icon-text">
                             <p class="head">Date</p>
                             <p class="sen">09/23/2021</p>
                         </div>
 
-                    </span>
+                    </div>
                 </div>
                 <div
                     class="col-12 col-sm-6  col-md-4 col-lg-3 d-flex align-center justify-center mt-24 whiteline-1  mb-24">
-                    <span class="d-flex justify-center align-center pl-20"><svg width="30" height="30"
+                    <div class="d-flex justify-center align-center pl-20"><svg width="30" height="30"
                             viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M20.8991 24.69L20.0991 18.285C19.9857 17.3778 19.5448 16.5432 18.8593 15.9383C18.1738 15.3333 17.2909 14.9996 16.3766 15H13.6216C12.7078 15.0003 11.8254 15.3342 11.1405 15.9391C10.4555 16.544 10.0149 17.3782 9.9016 18.285L9.10035 24.69C9.05638 25.0419 9.08777 25.3991 9.19245 25.7379C9.29712 26.0768 9.47269 26.3894 9.70748 26.6552C9.94228 26.921 10.2309 27.1338 10.5543 27.2794C10.8776 27.4251 11.2282 27.5003 11.5828 27.5H18.4178C18.7724 27.5001 19.1229 27.4248 19.446 27.279C19.7692 27.1333 20.0577 26.9205 20.2924 26.6547C20.527 26.389 20.7025 26.0764 20.8071 25.7376C20.9117 25.3989 20.9431 25.0418 20.8991 24.69V24.69Z"
@@ -108,12 +120,12 @@
                                 d="M25 17.5H25.3825C25.9743 17.4999 26.5469 17.7098 26.9985 18.0923C27.4501 18.4747 27.7514 19.005 27.8487 19.5887L28.265 22.0887C28.3247 22.4469 28.3057 22.8138 28.2093 23.1639C28.1129 23.514 27.9413 23.8389 27.7066 24.116C27.4719 24.393 27.1796 24.6156 26.8501 24.7683C26.5207 24.921 26.1619 25 25.7987 25H21.25"
                                 stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                        <div class="w-11">
+                        <div class="icon-text">
                             <p class="head">Capicity</p>
                             <p class="sen">Search by city</p>
                         </div>
 
-                    </span>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6  col-md-4 col-lg-3 mt-24 mb-24">
                     <span class="d-flex align-center justify-center"><button class="check-btn cursor">GO
@@ -126,9 +138,9 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 d-flex align-center justify-center">
                     <div class="img-view d-flex">
-                        <img src="./assets/images/Group 17.png" alt="image" class="yt-img">
+                        <img src="./assets/images/Group17.png" alt="image" class="yt-img">
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -215,8 +227,8 @@
 
     </section>
     <!--------------section-3--------------------->
-    <section class="bg-img2 w-100 h-100 sec-layer">
-        <div class="container postn-rel z-index pb-40">
+    <section class="bg-img2 w-100 h-100 sec-layer d-flex justify-center f-direction">
+        <div class="container postn-rel z-1 pb-40 w-100">
             <div class="main-content mb-75 mt-75 d-flex align-center f-direction">
                 <h2 class="sec-3-head mt-50">Lorem ipsum dolor sit amet, consectetur</h2>
                 <p class="sec-3-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna
@@ -301,7 +313,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="sec-4-box mt-70">
-                        <img src="./assets/images/flying paper.png" alt=" hall" class="hall">
+                        <img src="./assets/images/flyingpaper.png" alt=" hall" class="hall">
                         <p class="date">09/23/2021</p>
                         <p class="col-head">Lorem ipsum</p>
                         <p class="col-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna
@@ -339,7 +351,7 @@
                                 <input type="password" placeholder="Confirm Password" class="blanks">
                             </div>
                             <div class="col-12">
-                                <textarea name="About Me" id="About Me" cols="30" rows="10" placeholder="About Me"
+                                <textarea name="AboutMe" id="AboutMe" placeholder="About Me"
                                     class="entry"></textarea>
                             </div>
                             <div class="col-12 d-flex justify-center"><button class="sec-4-btn">Sign up</button></div>
@@ -350,7 +362,7 @@
         </div>
     </section>
     <!------------------------section-5(footer)----------------------------->
-    <footer class="bg-black">
+    <footer class="bg-black pt-70">
         <div class="container">
 
             <div class="row">
@@ -441,7 +453,7 @@
                                     <img src="./assets/images/foot5.png" alt="img" class="w-100">
                                 </div>
                                 <div class="col-4">
-                                    <p class="show d-flex justify-center align-center">Show More</p>
+                                    <a class="show d-flex justify-center align-center">Show <br>More</a>
                                 </div>
 
                             </div>
