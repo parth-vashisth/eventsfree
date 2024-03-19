@@ -297,8 +297,9 @@
 .gap23 {
     gap: 23px;
 }
-.mt-50{
-margin-top: 30px;
+
+.mt-50 {
+    margin-top: 30px;
 }
 
 .mt-30 {
@@ -388,7 +389,7 @@ margin-top: 30px;
 
 .yt-img {
     width: 100%;
- 
+
 }
 
 .special {
@@ -442,7 +443,7 @@ margin-top: 30px;
     bottom: 40px;
     justify-content: center;
     align-items: center;
-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .card-head {
